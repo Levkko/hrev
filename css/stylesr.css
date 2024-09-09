@@ -1,0 +1,353 @@
+body {
+  background-color: rgb(111, 140, 175);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+}
+.container2 {
+  display: flex;
+}
+.container3 {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.column2 {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.column3 {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.blue {
+  color: rgb(170, 234, 241);
+  font-weight: 600;
+}
+
+.headers-icon {
+  color: rgb(162, 237, 242);
+}
+
+.j1 {
+  background-image: url('earth.jpg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0; 
+  padding: 0 !important; 
+  border: none; 
+  width: 100%; 
+  height: 100%;
+  max-height: 155px;
+}
+
+.dashka {
+
+  transform: scaleY(3.89) translateY(26px); 
+
+}
+
+.fito{
+  transform: scaleY(1.9) translateY(23px); 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+/*-РЯДОК 1-*/
+
+img {
+  width: 100vw;
+}
+
+/*1--------------------------------------*/
+.column:nth-child(1) {
+  background-color: rgb(152, 181, 211);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.crew {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*2--------------------------------------*/
+.column:nth-child(2) {
+  background-image: linear-gradient(6deg, rgb(59, 84, 111), rgb(125, 149, 186));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.Perigee {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dash {
+  width: 30px;
+  height: 6px;
+  background-color: #a6dff7;
+  margin-top: 10px;
+  align-self: flex-end; /* Щоб рисочка була праворуч */
+  margin-left: auto;
+}
+
+/*3--------------------------------------*/
+.column:nth-child(3) {
+  background-image: linear-gradient(6deg, rgb(59, 84, 111), rgb(125, 149, 186));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.Apogee {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dash {
+  width: 30px;
+  height: 6px;
+  background-color: #a6dff7;
+  margin-top: 10px;
+  align-self: flex-end; /* Щоб рисочка була праворуч */
+  margin-left: auto;
+}
+
+/*4--------------------------------------*/
+.column:nth-child(4) {
+  background-image: linear-gradient(6deg, rgb(59, 84, 111), rgb(125, 149, 186));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.Reletive {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dash {
+  width: 30px;
+  height: 6px;
+  background-color: #a6dff7;
+  margin-top: 10px;
+  align-self: flex-end; /* Щоб рисочка була праворуч */
+  margin-left: auto;
+}
+
+/*5--------------------------------------*/
+.column:nth-child(5) {
+  background-image: linear-gradient(6deg, rgb(59, 84, 111), rgb(125, 149, 186));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.Range {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dash {
+  width: 30px;
+  height: 6px;
+  background-color: #a6dff7;
+  margin-top: 10px;
+  align-self: flex-end; /* Щоб рисочка була праворуч */
+  margin-left: auto;
+}
+
+.earth {
+  border-width: 100px;
+  border-color: black;
+  background-size: contain;
+}
+
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+/*-РЯДОК 2-*/
+
+/*1--------------------------------------*/
+.column2:nth-child(1) {
+  background-image: linear-gradient(6deg, rgb(59, 84, 111), rgb(125, 149, 186));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.day {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*2--------------------------------------*/
+.column2:nth-child(2) {
+  background-image: linear-gradient(0deg, rgb(125, 149, 186), rgb(59, 84, 111));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+  overflow: hidden;
+}
+
+/*3--------------------------------------*/
+.column2:nth-child(3) {
+  background-image: linear-gradient(0deg, rgb(125, 149, 186), rgb(59, 84, 111));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.Next {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*4--------------------------------------*/
+.column2:nth-child(4) {
+  background-image: linear-gradient(0deg, rgb(125, 149, 186), rgb(59, 84, 111));
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.Target {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dash {
+  width: 30px;
+  height: 6px;
+  background-color: #a6dff7;
+  margin-top: 10px;
+  align-self: flex-end; /* Щоб рисочка була праворуч */
+  margin-left: auto;
+}
+
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+/*-РЯДОК 3-*/
+
+/*1--------------------------------------*/
+.column3:nth-child(1) {
+  background-image: linear-gradient(
+    6deg,
+    rgb(125, 149, 186),
+    rgb(125, 149, 186)
+  );
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(93, 118, 149);
+  border-left-color: rgb(111, 140, 175);
+  border-top-color: rgb(111, 140, 175);
+}
+.day {
+  font-weight: 600;
+  font-size: 7px;
+}
+
+.Thruster {
+  padding-left: 80%;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between; /* Вирівнюємо блоки по горизонталі */
+}
+
+.columnno {
+  flex: 1; /* Блоки будуть займати однакову ширину */
+  padding: 10px;
+  background-color: #2e3b47; /* Для перевірки */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.margin {
+  margin-top: 10px; /* Відступ між блоками */
+  height: 100%; /* Внутрішній блок займатиме повну висоту */
+}
+
+.column2 {
+  flex: 1; /* Додаємо, щоб вкладені блоки займали однаковий простір */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
